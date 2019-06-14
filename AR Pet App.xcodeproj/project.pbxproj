@@ -12,6 +12,7 @@
 		9761955022B43CAC00A02948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9761954E22B43CAC00A02948 /* Main.storyboard */; };
 		9761955222B43CAE00A02948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9761955122B43CAE00A02948 /* Assets.xcassets */; };
 		9761955522B43CAE00A02948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9761955322B43CAE00A02948 /* LaunchScreen.storyboard */; };
+		9774D03A22B450E400BBF439 /* Animals in Resources */ = {isa = PBXBuildFile; fileRef = 9774D03922B450E400BBF439 /* Animals */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9761955122B43CAE00A02948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9761955422B43CAE00A02948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9761955622B43CAE00A02948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9774D03922B450E400BBF439 /* Animals */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Animals; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		9761954922B43CAC00A02948 /* AR Pet App */ = {
 			isa = PBXGroup;
 			children = (
+				9774D03922B450E400BBF439 /* Animals */,
 				9761954A22B43CAC00A02948 /* AppDelegate.swift */,
 				9761954C22B43CAC00A02948 /* ViewController.swift */,
 				9761954E22B43CAC00A02948 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9774D03A22B450E400BBF439 /* Animals in Resources */,
 				9761955522B43CAE00A02948 /* LaunchScreen.storyboard in Resources */,
 				9761955222B43CAE00A02948 /* Assets.xcassets in Resources */,
 				9761955022B43CAC00A02948 /* Main.storyboard in Resources */,
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 462JU2QBBV;
 				INFOPLIST_FILE = "AR Pet App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 462JU2QBBV;
 				INFOPLIST_FILE = "AR Pet App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
